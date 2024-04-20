@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME // OCEANSOUL</title>
+    <link rel="icon" href="favicon-16.ico" type="image/x-icon" sizes="16x16">
+    <link rel="icon" href="favicon-32.ico" type="image/x-icon" sizes="32x32">
+    <link rel="icon" href="favicon-64.ico" type="image/x-icon" sizes="64x64">
+    <style>
+        body {
+            margin: 0 320px; /* Added left and right margins */
+            padding: 0;
+            font-family: 'Unbounded-Light', sans-serif;
+            position: relative;
+            background-image: url('../bg-long.png');
+            background-size: cover;
+            color: #fff;
+        }
+        @font-face {
+            font-family: 'Unbounded-Light';
+            src: url('../Unbounded-Light.ttf') format('truetype'); /* Specify the path to your font file */
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 0;
+            z-index: 1;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #fff;
+        }
+
+        .logo {
+            width: 50px;
+            height: auto;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .content {
+            padding-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .content h2 {
+            font-size: 48px;
+            text-align: left;
+            margin-left: 20px;
+        }
+
+        link[rel="icon"] {
+            position: relative;
+            top: 1px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../Live/live.html">LIVE</a></li>
+                <li><a href="../Stream/stream.html">STREAM</a></li>
+                <li><a href="../index.html"><img src="../ocs-logo.png" alt="Oceansoul Logo" class="logo"></a></li>
+                <li><a href="../Merch/merch.html">MERCH</a></li>
+                <li><a href="../Members/members.html">MEMBERS</a></li>
+                <li><a href="../Contacts/contacts.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+
+    </div>
+    <div class="footer">
+        <p>&copy; All rights reserved</p>
+    </div>
+</body>
+</html>
